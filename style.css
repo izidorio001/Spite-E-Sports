@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 85vh;
+
+    background-image: url('lol1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+
+    Background-color: rgba(0,0,0,.6);
+    Background-blend-mode: multiply
+}
+
+.banner{
+    height: 70vh;
+    width: 100vw;
+
+    display: flex;
+
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.banner_info_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 94px;
+    line-height: 95px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.banner_info_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #135bd6;
+    font-weight: bold;
+}
+
+.banner_logo{
+
+}
+
+.aboutme{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+}
+
+.aboutme_box{
+    width: 900px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme_box img{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.aboutme_box img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.aboutme_box_info{
+    padding-left: 40px;
+}
+
+.aboutme_box_info .aboutme_box_info_tag{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+
+    color: #135bd6;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+}
+
+.aboutme_box_info .aboutme_box_info_title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.aboutme_box_info .aboutme_box_info_text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    font-family: 16px;
+    line-height: 26px;
+
+    color: #afafaf;
+
+    margin-top: 25px;
+}
+
+.aboutme_box_social ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.aboutme_box_social ul li a i{
+    color: #ffffff;
+
+    padding: 10px;
+
+    font-size: 25px;
+}
+
+.aboutme_box_social ul li a i:hover{
+    color: #135bd6;
+
+    transition: 0.2s;
+}
+
+.tropheus{
+    width: 100%;
+    height: 36vh;
+
+    background-color: #E6EBF8;
+}
+
+.tropheus_box{
+    height: 100%;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.tropheus_box_title{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+
+    color: #135bd6;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+    padding-top: 15px;
+}
+
+.tropheus_box_tropheus{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.tropheus_box_tropheus img{
+    width: 150px;
+    height: 150px;
+
+    padding: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 667px){
+    .main{
+        height: 50vh;
+        width: 100%;
+    }
+    .banner{
+        height: 50vh;
+        width: 100vw;
+
+        padding-left: 1px;
+    }
+    .banner_info{
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    .banner_info_title{
+        font-size: 44px;
+        line-height: 45px;
+        font-weight: 600;
+    }
+    .banner_info_subtitle{
+        font-size: 13px;
+    }
+    .aboutme{
+        height: 100vh;
+        width: 100%;
+    }
+    .aboutme_box{
+        padding-top: 100px;
+        padding-left: 10px;
+
+        display: block;
+        justify-content: center;
+        align-self: center;
+    }
+    .aboutme_box_image img{
+        height: 230px;
+        width: 230px;
+        border-radius: 15px;
+
+        padding-left: 10px;
+    }
+    .aboutme_box{
+        width: 100vw;
+        height: 700px;
+    
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme_box_info{
+        padding-left: 10px;
+    }
+    .aboutme_box_info .aboutme_box_info_tag{
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+    
+        margin-top: 10px;
+    }
+    .aboutme_box_info .aboutme_box_info_title{
+        width: 250px;
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    
+    .aboutme_box_info .aboutme_box_info_text{
+        width: 260px;
+
+        font-size: 14px;
+        line-height: 26px;
+    
+        margin-top: 25px;
+    }
+    .tropheus{
+        width: 100vw;
+        height: 70vh;
+    
+        background-color: #E6EBF8;
+    }
+    
+    .tropheus_box{
+        height: 100%;
+        width: 100%;
+    
+        justify-content: center;
+        align-items: center;
+    
+        text-align: center;
+    }
+    
+    .tropheus_box_title{
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: bold;
+    
+        color: #135bd6;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    
+        padding-top: 15px;
+    }
+    
+    .tropheus_box_tropheus{
+        display: block;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tropheus_box_tropheus img{
+        width: 150px;
+        height: 150px;
+    
+        padding: 20px;
+    }
+}
