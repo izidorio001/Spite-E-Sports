@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html{
+    width: 100vw;
+}
+
 .main{
     width: 100%;
     height: 85vh;
@@ -27,7 +31,7 @@
 
 .banner{
     height: 70vh;
-    width: 100vw;
+    width: 50vw;
 
     display: flex;
 
@@ -192,6 +196,8 @@
 
     padding: 20px;
 }
+
+
 
 
 
