@@ -196,7 +196,7 @@ html{
 .tropheus_box_title{
     font-size: 16px;
     line-height: 32px;
-    font-weight: 400;
+    font-weight: bold;
 
     color: #135bd6;
     font-family: 'Poppins', sans-serif;
@@ -409,6 +409,9 @@ html{
     color: #afafaf;
 }
 
+.footer_box_team span{
+    font-style: italic;
+}
 
 
 
