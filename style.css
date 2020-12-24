@@ -434,12 +434,12 @@ html{
         padding-left: 10px;
     }
     .banner_info_title{
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 65px;
+        line-height: 64px;
         font-weight: 600;
     }
     .banner_info_subtitle{
-        font-size: 13px;
+        font-size: 15px;
     }
     .aboutme{
         height: 110vh;
