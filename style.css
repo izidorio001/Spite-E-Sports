@@ -39,6 +39,8 @@ html{
     width: auto;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     padding-left: 50px;
     padding-top: 50px;
@@ -72,6 +74,11 @@ html{
 
 .banner_logo{
 
+}
+
+.banner_logo img{
+    width: 400px;
+    height: 400px;
 }
 
 .aboutme{
@@ -389,9 +396,12 @@ html{
     font-size: larger;
 
     text-decoration: none;
-
+    font-size: 20px;
 }
 
+.footer_box_powered span{
+    font-size: 15px;
+}
 
 
 
@@ -402,21 +412,29 @@ html{
 
 @media only screen and (max-width: 667px){
     .main{
-        height: 50vh;
+        height: 70vh;
         width: 100%;
     }
     .banner{
-        height: 50vh;
+        height: 60vh;
         width: 100vw;
+
+        display: block;
 
         padding-left: 1px;
     }
+    .banner_logo img{
+        width: 200px;
+        height: 200px;
+
+        padding-left: 30px;
+    }
     .banner_info{
-        padding-top: 40px;
+        padding-top: 30px;
         padding-left: 10px;
     }
     .banner_info_title{
-        font-size: 44px;
+        font-size: 35px;
         line-height: 45px;
         font-weight: 600;
     }
@@ -622,13 +640,20 @@ html{
     .footer_box_powered{
         color: #afafaf;
     
-        padding-left: 20px;
+        padding-left: 0px;
         padding-top: 30px;
         padding-bottom: 30px;
 
         font-family: 'Poppins', sans-serif;
     }
 
+    .footer_box_powered span{
+        font-size: 15px;
+    }
+
+    .footer_box_powered span a{
+        font-size: 20px;
+    }
 
 
 }
