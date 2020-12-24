@@ -404,6 +404,11 @@ html{
     font-size: 15px;
 }
 
+.footer_box_team a{
+    text-decoration: none;
+    color: #afafaf;
+}
+
 
 
 
