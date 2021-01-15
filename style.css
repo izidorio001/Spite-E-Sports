@@ -305,15 +305,15 @@ html{
   }
   
 
-.third {
+.third{
     border-color: #135bd6;
     background-color: #135bd6;
     color: #fff;
     box-shadow: 0 0 40px 40px ##135bd6 inset, 0 0 0 0 #135bd6;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
-
     display: inline-block;
+
   }
 
 .third a{
@@ -414,15 +414,13 @@ html{
 }
 
 
-
-
-
-
-
 @media only screen and (max-width: 667px){
     .main{
         height: 80vh;
         width: 100%;
+    }
+    .bg{
+        text-align: center;
     }
     .banner{
         height: 60vh;
@@ -436,7 +434,7 @@ html{
         width: 200px;
         height: 200px;
 
-        padding-left: 30px;
+        
     }
     .banner_info{
         padding-top: 30px;
@@ -456,7 +454,7 @@ html{
     }
     .aboutme_box{
         padding-top: 100px;
-        padding-left: 10px;
+        padding-left: 30px;
 
         display: block;
         justify-content: center;
@@ -503,9 +501,12 @@ html{
     
         margin-top: 25px;
     }
+    .aboutme_box_social{
+        margin-top: 10px;
+    }
     .tropheus{
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
     
         background-color: #E6EBF8;
     }
@@ -665,4 +666,28 @@ html{
     }
 
 
+}
+
+@media only screen and (max-width: 320px){
+    .main{
+        height: 90vh;
+    }
+    .banner_logo img{
+        width: 200px;
+        height: 200px;    
+    }
+    .banner_info_title{
+        font-size: 60px;
+        line-height: 60px;
+        
+    }
+    .banner_info_subtitle{
+        font-size: 15px;
+    }
+    .tropheus{
+        width: 100vw;
+        height: 110vh;
+    
+        background-color: #E6EBF8;
+    }
 }
